@@ -8,6 +8,7 @@ module.exports = {
     head: [["meta", { name: "theme-color", content: "#3c8772" }]],
     nav: [
       { text: "Guide", link: "/guide" },
+      { text: "Work", link: "/work/index" },
       { text: "Life", link: "/life/index" },
       { text: "Child", link: "/child/index" },
       {
@@ -39,15 +40,9 @@ module.exports = {
       //   ],
       // },
     ],
-    // sidebar: [
-    //   {
-    //     text: "Life",
-    //     items: [
-    //       // This shows `/guide/index.md` page.
-    //       { text: "Introduction", link: "/life/" },
-    //     ],
-    //   },
-    // ],
+    sidebar: {
+      "/work/": sidebarWork(),
+    },
     editLink: {
       pattern: "https://github.com/niaogege/love/edit/main/docs/:path",
       text: "Edit this page on GitHub",
@@ -63,3 +58,17 @@ module.exports = {
     },
   },
 };
+
+function sidebarWork() {
+  return [
+    {
+      text: "Work",
+      items: [
+        { text: "目前处境", link: "/work/index" },
+        { text: "日常小记", link: "/work/days" },
+        { text: "想染指的", link: "/work/goal" },
+        { text: "羡慕大佬", link: "/work/exe" },
+      ],
+    },
+  ];
+}
