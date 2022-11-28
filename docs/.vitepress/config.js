@@ -8,6 +8,8 @@ module.exports = {
     head: [["meta", { name: "theme-color", content: "#3c8772" }]],
     nav: [
       { text: "Guide", link: "/guide" },
+      { text: "Life", link: "/life/index" },
+      { text: "Child", link: "/child/index" },
       {
         text: "技术博客",
         items: [
@@ -47,7 +49,7 @@ module.exports = {
     //   },
     // ],
     editLink: {
-      pattern: "https://github.com/vuejs/vitepress/edit/main/docs/:path",
+      pattern: "https://github.com/niaogege/love/edit/main/docs/:path",
       text: "Edit this page on GitHub",
     },
 
@@ -55,9 +57,9 @@ module.exports = {
 
     footer: {
       message:
-        'Released under the <a href="https://github.com/vuejs/vitepress/blob/main/LICENSE">MIT License</a>.',
+        'Released under the <a href="https://github.com/niaogege/love">MIT License</a>.',
       copyright:
-        'Copyright © 2019-present <a href="https://github.com/yyx990803">Evan You</a>',
+        'Copyright © 2019-present <a href="https://github.com/niaogege/love">Evan You</a>',
     },
   },
 };

@@ -14,15 +14,15 @@ hero:
       link: /life/index
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/niaogege/love
 
 features:
   - title: 初识
-    details: Feel the speed of Vite. Instant server start and lightning fast HMR that stays fast regardless of the app size.
+    details: 2018/10/28·湖南衡阳
   - title: 相爱
-    details: With Markdown-centered content, it's built to help you focus on writing and deployed with minimum configuration.
+    details: 恋爱
   - title: 组建
-    details: Enhance your content with all the features of Vue in Markdown, while being able to customize your site with Vue.
+    details: 人生还未圆满
   - title: 养老
-    details: Go wild with true SSG + SPA architecture. Static on page load, but engage users with 100% interactivity from there.
+    details: 赚够100w养老
 ---
