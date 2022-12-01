@@ -8,7 +8,7 @@ module.exports = {
     head: [["meta", { name: "theme-color", content: "#3c8772" }]],
     nav: [
       { text: "Guide", link: "/guide" },
-      { text: "Work", link: "/work/index" },
+      { text: "Work", link: "/work/days" },
       { text: "Life", link: "/life/index" },
       { text: "Child", link: "/child/index" },
       {
@@ -64,8 +64,8 @@ function sidebarWork() {
     {
       text: "Work",
       items: [
-        { text: "目前处境", link: "/work/index" },
         { text: "日常小记", link: "/work/days" },
+        { text: "目前处境", link: "/work/cur" },
         { text: "想染指的", link: "/work/goal" },
         { text: "羡慕大佬", link: "/work/exe" },
       ],

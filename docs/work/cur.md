@@ -9,5 +9,5 @@
 - nodejs
   - nestjs
   - babel
-- Ci/Cd
+- CI/CD
 - 算法
