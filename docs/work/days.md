@@ -25,6 +25,8 @@
 
 争取任务都干掉，不要荒废周末的大好时间,
 
+从 github 传文件到私服插件 https://github.com/wlixcc/SFTP-Deploy-Action 老是传送失败
+
 - 基于 githubAction 实现前端项目的自动化测试/发布和部署(已完成)
 - 基于 githubAction 实现 Nodejs 项目的自动化测试/发布和部署(待验证)
 - 基于 githubAction 实现 npm 包自动发布
