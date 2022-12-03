@@ -46,8 +46,7 @@ jobs:
         with:
           host: "111.230.199.157"
           user: "root"
-          pass: ${{ secrets.SSH_PRIVATE_KEY }}
-          port: "22"
+          pass: ${{ secrets.FTP_PASSWORD }}
           connect_timeout: 20s
           first_ssh: |-
             rm -rf /www/web/record  
