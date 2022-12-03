@@ -41,7 +41,7 @@ jobs:
       #     # ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} # 认证服务器秘钥对的私钥
       #     local_path: "docs/.vuepress/dist/*" # 对应我们项目打包后的静态文件路径
       #     remote_path: "/www/web/record" # 服务器上的路径
-      - name: deploy My Server
+      - name: Deploy Server
         uses: cross-the-world/ssh-scp-ssh-pipelines@latest
         env:
           WELCOME: "ssh scp ssh pipelines CPP server"
@@ -56,6 +56,6 @@ jobs:
             echo $WELCOME   
             mkdir -p $TARGET_DIR
           scp: |-
-            './docs' => $TARGET_DIR/
+            './docs/.vitepress/dist' => $TARGET_DIR/
           last_ssh: |-
             echo $LASTSSH
