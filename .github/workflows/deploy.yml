@@ -52,10 +52,10 @@ jobs:
           pass: ${{ secrets.FTP_PASSWORD }}
           connect_timeout: 20s
           first_ssh: |-
-            rm -rf $TARGET_DIR/dist
+            rm -rf $TARGET_DIR
             echo $WELCOME   
-            mkdir -p $TARGET_DIR/dist
+            mkdir -p $TARGET_DIR
           scp: |-
-            'docs/.vuepress/dist/*' => $TARGET_DIR/dist/
+            './*' => $TARGET_DIR/
           last_ssh: |-
             echo $LASTSSH
