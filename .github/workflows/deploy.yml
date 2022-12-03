@@ -50,11 +50,9 @@ jobs:
           connect_timeout: 20s
           first_ssh: |-
             rm -rf /www/web/record  
-            ls -la 
             echo $WELCOME   
-            mkdir -p /www/web/record
+            mkdir -p /www/web/record/dist
           scp: |-
-            './docs/.vuepress/dist/*' => /www/web/record/
+            './docs/.vuepress/dist/*' => /www/web/record/dist/
           last_ssh: |-
             echo $LASTSSH
-            ls -la
