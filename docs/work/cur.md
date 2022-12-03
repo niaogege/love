@@ -11,3 +11,4 @@
   - babel
 - CI/CD
 - 算法
+- 容器相关基本概念 docker
