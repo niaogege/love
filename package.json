@@ -7,9 +7,10 @@
   "license": "MIT",
   "scripts": {
     "start": "vitepress dev docs",
-    "docs:dev": "vitepress dev docs",
+    "docs:dev": "vitepress dev docs cpp",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:serve": "vitepress serve docs",
+    "build": "vitepress build doces server"
   },
   "devDependencies": {
     "vitepress": "^1.0.0-alpha.29",

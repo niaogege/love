@@ -30,3 +30,8 @@
 - 基于 githubAction 实现前端项目的自动化测试/发布和部署(已完成)
 - 基于 githubAction 实现 Nodejs 项目的自动化测试/发布和部署(待验证)
 - 基于 githubAction 实现 npm 包自动发布
+
+### 04
+
+- git 创建远程分支时报错
+- 配置 nginx 时 location 不生效
