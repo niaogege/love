@@ -62,3 +62,60 @@
     try_files $uri $uri/ /index.html;
   }
 ```
+
+deploy.yml 脚本内容如下
+
+```bash
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  TARGET_DIR: /www/web/love
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x]
+    steps:
+      - name: Checkout # 步骤1
+        uses: actions/checkout@v1 # 使用的动作。格式：userName/repoName。作用：检出仓库，获取源码。 官方actions库：https://github.com/actions
+      - name: Use Node.js # 步骤2
+        uses: actions/setup-node@v1 # 作用：安装nodejs
+        with:
+          node-version: ${{ matrix.node-version }} # 版本
+      - run: npm install --frozen-lockfile
+      - name: Build
+        run: npm run docs:build
+
+      - name: Deploy Github Page
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs/.vitepress/dist
+
+      - name: Deploy Server
+        uses: cross-the-world/ssh-scp-ssh-pipelines@latest
+        env:
+          WELCOME: "ssh scp ssh pipelines CPP server"
+          LASTSSH: "after copying"
+        with:
+          host: "111.230.199.157"
+          user: "root"
+          pass: ${{ secrets.FTP_PASSWORD }}
+          connect_timeout: 20s
+          first_ssh: |-
+            rm -rf $TARGET_DIR
+            echo $WELCOME
+            mkdir -p $TARGET_DIR
+          scp: |-
+            './docs/.vitepress/dist/*' => $TARGET_DIR/
+          last_ssh: |-
+            echo $LASTSSH
+
+```
