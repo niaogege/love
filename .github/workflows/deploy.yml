@@ -56,6 +56,6 @@ jobs:
             echo $WELCOME   
             mkdir -p $TARGET_DIR
           scp: |-
-            './docs/.vitepress/dist' => $TARGET_DIR/
+            './docs/.vitepress/dist/*' => $TARGET_DIR/
           last_ssh: |-
             echo $LASTSSH

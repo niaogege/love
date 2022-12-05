@@ -5,7 +5,7 @@ module.exports = {
   title: "My Love",
   description: "爱你所爱",
   lang: "en-US",
-  // base: "/love/",
+  base: "/love/",
   themeConfig: {
     siteTitle: "My Love",
     head: [["meta", { name: "theme-color", content: "#3c8772" }]],
