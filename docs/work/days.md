@@ -35,3 +35,30 @@
 
 - git 创建远程分支时报错
 - 配置 nginx 时 location 不生效
+
+### 05
+
+哈哈哈，周六瞎折腾搞得 nginx 配置不生效的问题找到了，学到了一点:**学会看日志，报错是有原因的**，
+
+之前是这么配置的
+
+```bash
+  location /love {
+    root /www/web/record/dist;
+    index index.html index.htm;
+    try_files $uri $uri/ /index.html;
+  }
+```
+
+报错
+2022/12/05 14:14:27 [error] 17800#17800: \*282 open() "/www/web/record/dist/love" failed (2: No such file or directory), client: 43.247.101.196, server: \_, request: "GET /record HTTP/1.1", host: "111.230.199.157"
+
+解决：
+
+```js
+  location /love {
+    root /www/web/;
+    index index.html index.htm;
+    try_files $uri $uri/ /index.html;
+  }
+```
