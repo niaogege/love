@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  TARGET_DIR: /www/web/record
+  TARGET_DIR: /www/web/love
 
 jobs:
   deploy:
