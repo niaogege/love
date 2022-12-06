@@ -124,4 +124,7 @@ jobs:
 
 今天看到了云原生/BFF/severless,卧槽，有时间实践实践，搞起来，向大佬学习
 
-- [vercel](https://vercel.com/signup)
+- [vercel](https://vercel.com)
+- [Vercel?](https://zhuanlan.zhihu.com/p/347990778)
+- [mongodb](https://cloud.mongodb.com/v2/638f09013a851a537a5a8ade#clusters)
+- [hexo](https://hexo.io/themes/)
