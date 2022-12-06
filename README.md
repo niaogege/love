@@ -1,5 +1,7 @@
 # 根据 vitePress 构建而来
 
+[![wakatime](https://wakatime.com/badge/github/niaogege/love.svg)](https://wakatime.com/badge/github/niaogege/love)
+
 > 感谢尤大提供这么好的技术支持
 
 - [vitepress](https://vitepress.vuejs.org/)

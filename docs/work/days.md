@@ -119,3 +119,9 @@ jobs:
             echo $LASTSSH
 
 ```
+
+### 06
+
+今天看到了云原生/BFF/severless,卧槽，有时间实践实践，搞起来，向大佬学习
+
+- [vercel](https://vercel.com/signup)

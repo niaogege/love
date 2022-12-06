@@ -10,10 +10,11 @@ module.exports = {
     siteTitle: "My Love",
     head: [["meta", { name: "theme-color", content: "#3c8772" }]],
     nav: [
-      { text: "Guide", link: "/guide" },
+      { text: "Love", link: "/love/index" },
       { text: "Work", link: "/work/days" },
       { text: "Life", link: "/life/index" },
       { text: "Child", link: "/child/index" },
+      { text: "Guide", link: "/guide" },
       {
         text: "技术博客",
         items: [
@@ -57,7 +58,7 @@ module.exports = {
       message:
         'Released under the <a href="https://github.com/niaogege/love">MIT License</a>.',
       copyright:
-        'Copyright © 2019-present <a href="https://github.com/niaogege/love">Evan You</a>',
+        'Copyright © 2022-present <a href="https://github.com/niaogege/love">WMH</a>',
     },
   },
 };
