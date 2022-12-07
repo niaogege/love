@@ -10,7 +10,7 @@
     "docs:dev": "vitepress dev docs cpp",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
-    "build": "vitepress build docs && rm -rf dist && mkdir -p dist && mv ./docs/.vitepress/dist ./dist"
+    "build": "vitepress build docs && rm -rf dist && mkdir -p dist && mv ./docs/.vitepress/dist ./"
   },
   "devDependencies": {
     "vitepress": "^1.0.0-alpha.29",
