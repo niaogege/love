@@ -70,7 +70,7 @@ function sidebarWork() {
       items: [
         { text: "日常小记", link: "/work/days" },
         { text: "目前处境", link: "/work/cur" },
-        { text: "想染指的", link: "/work/goal" },
+        { text: "想拥有的", link: "/work/goal" },
         { text: "羡慕大佬", link: "/work/exe" },
       ],
     },
