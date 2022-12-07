@@ -29,7 +29,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist
+          publish_dir: ./dist
 
       - name: Deploy Server
         uses: cross-the-world/ssh-scp-ssh-pipelines@latest
@@ -43,7 +43,7 @@ jobs:
           connect_timeout: 20s
           first_ssh: |-
             rm -rf $TARGET_DIR
-            echo $WELCOME   
+            echo $WELCOME
             mkdir -p $TARGET_DIR
           scp: |-
             './dist/*' => $TARGET_DIR/
