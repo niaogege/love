@@ -23,7 +23,7 @@ jobs:
           node-version: ${{ matrix.node-version }} # 版本
       - run: npm install --frozen-lockfile
       - name: Build
-        run: npm run docs:build
+        run: npm run build
 
       - name: Deploy Github Page
         uses: peaceiris/actions-gh-pages@v3
