@@ -128,3 +128,11 @@ jobs:
 - [Vercel?](https://zhuanlan.zhihu.com/p/347990778)
 - [mongodb](https://cloud.mongodb.com/v2/638f09013a851a537a5a8ade#clusters)
 - [hexo](https://hexo.io/themes/)
+
+### 07
+
+人总是贪婪的，看到这么多不会的，都想一下子掌握，怎么可能呢，还是要遵循大自然规律的，循序渐进，1 月 5 日记得用掉云开发体验券
+
+[云开发 CloudBase](https://console.cloud.tencent.com/tcb/env/index?rid=4)
+
+目前想学习的有点多，感觉凌乱了，千万不要慌，要沉下心来
