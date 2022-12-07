@@ -136,3 +136,19 @@ jobs:
 [云开发 CloudBase](https://console.cloud.tencent.com/tcb/env/index?rid=4)
 
 目前想学习的有点多，感觉凌乱了，千万不要慌，要沉下心来
+
+- 个人域名还是配置下 https 协议，不然老是报各种未知问题(待完成)
+- LRU,复习下 LRU 算法
+- adb 获取当前设备 UUID
+
+```bash
+// 查看当前链接的手机设备
+adb devices
+
+cd /Users/xmly/Library/HarmonyOS/Sdk/toolchains
+
+// 获取手机uuid
+adb shell bm get --udid
+```
+
+- 配置 vercel 都是英文，真是不太适应，https://vercel.com/niaogege/love/settings，配置了好久都没配置好
