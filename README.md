@@ -42,3 +42,13 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: docs/.vitepress/dist
 ```
+
+## 本博客网站依次部署在
+
+[vercel](https://love-niaogege.vercel.app/)
+[github](https://github.com/niaogege/love)
+
+你阔以通过
+[love-niaogege.vercel](https://love-niaogege.vercel.app/)
+[niaogege](http://niaogege.cn/love/)
+[bythewayer](http://www.bythewayer.com/love)

@@ -152,3 +152,13 @@ adb shell bm get --udid
 ```
 
 - 配置 vercel 都是英文，真是不太适应，https://vercel.com/niaogege/love/settings，配置了好久都没配置好
+
+### 08
+
+vercel 总算是配置完毕，部署成功，访问地址[vercel-love](https://love-niaogege.vercel.app/),
+
+- 有一个问题就是，不能对子路径进行配置，我现在的需求是：
+  bythewayer.com/love 访问个人记录网站，vercel 如果也想配置成子路径，比如这种 **https://love-niaogege.vercel.app/love** 应该如何处理，现在解决办法是根据分支不同，主分支还是打包到/love 路径下，vercel 分支则是打包到跟路径下
+- 另外一个问题是 **\*.vercel.app**已被 DNS 污染，基于此搭建的评论 server 端 API 无法访问，目前可行的解决方案只有绑定自己的域名。
+
+[MongoDb][https://cloud.mongodb.com/v2/638f09013a851a537a5a8ade#clusters] 先放一放，把 Docker 和 K8s 基础知识学习学习
