@@ -1,11 +1,12 @@
 const argv = process.argv;
 
-console.log(argv, "ARGV");
+const lastParam = argv.pop();
+console.log(argv, "ARGV", lastParam);
 module.exports = {
   title: "My Love",
   description: "爱你所爱",
   lang: "en-US",
-  // base: "/love/",
+  base: lastParam === "vercel" ? "/" : "/love/",
   themeConfig: {
     siteTitle: "My Love",
     head: [["meta", { name: "theme-color", content: "#3c8772" }]],
