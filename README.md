@@ -43,6 +43,15 @@ jobs:
           publish_dir: docs/.vitepress/dist
 ```
 
+## 打包环境和脚本说明
+
+```js
+    // 部署到github 和 个人私服,含有/love路径
+    "build": "vitepress build docs && rm -rf dist && mkdir -p dist && mv ./docs/.vitepress/dist ./",
+    // 打包部署到vercel 区别就是没有/love路径
+    "build-vercel": "vitepress build docs vercel && rm -rf public && mkdir -p public && mv ./docs/.vitepress/dist/* ./public"
+```
+
 ## 本博客网站依次部署在
 
 [vercel](https://love-niaogege.vercel.app/)
