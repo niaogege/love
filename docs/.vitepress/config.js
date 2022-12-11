@@ -12,10 +12,10 @@ module.exports = {
     head: [["meta", { name: "theme-color", content: "#3c8772" }]],
     nav: [
       { text: "Love", link: "/love/index" },
-      { text: "Work", link: "/work/days" },
+      { text: "Work", link: "/work/index" },
       { text: "Life", link: "/life/index" },
       { text: "Child", link: "/child/index" },
-      { text: "Guide", link: "/guide" },
+      { text: "Thinking", link: "/think/index" },
       {
         text: "技术博客",
         items: [
@@ -69,10 +69,23 @@ function sidebarWork() {
     {
       text: "Work",
       items: [
-        { text: "日常小记", link: "/work/days" },
-        { text: "目前处境", link: "/work/cur" },
-        { text: "想拥有的", link: "/work/goal" },
-        { text: "羡慕大佬", link: "/work/exe" },
+        { text: "202211", link: "/work/202211" },
+        { text: "202212", link: "/work/202212" },
+        { text: "202301", link: "/work/202301" },
+        { text: "202302", link: "/work/202302" },
+      ],
+    },
+  ];
+}
+function siderbarThink() {
+  return [
+    {
+      text: "Thinking",
+      items: [
+        { text: "五年之约", link: "/think/index" },
+        { text: "目前处境", link: "/think/cur" },
+        { text: "想拥有的", link: "/think/goal" },
+        { text: "羡慕大佬", link: "/think/exe" },
       ],
     },
   ];
