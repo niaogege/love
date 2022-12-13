@@ -8,5 +8,6 @@
 - [eryajf](https://wiki.eryajf.net/)
 - [abcdocker](https://i4t.com/)
 - [jeff-tian](https://jeff-tian.jiwai.win/)
+- [appleBoy](https://blog.wu-boy.com/)
 
 ## 优秀技术分类
