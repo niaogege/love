@@ -1,1 +1,0 @@
-import{_ as e,c as t,o,a}from"./app.5e992baa.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"work/index.md"}'),n={name:"work/index.md"},s=a("p",null,"工作之余，记录日常所思所想所做",-1),r=[s];function c(d,_,i,p,l,m){return o(),t("div",null,r)}const x=e(n,[["render",c]]);export{u as __pageData,x as default};
