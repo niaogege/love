@@ -23,7 +23,8 @@ module.exports = {
             // Title for the section.
             // text: "看看",
             items: [
-              { text: "个人博客", link: "https://niaogege.cn/cpp-ui/" },
+              { text: "个人学习", link: "https://bythewayer.com/learn" },
+              { text: "个人所爱", link: "https://bythewayer.com/love" },
               {
                 text: "维护的项目",
                 link: "http://niaogege.cn/nest-test/#question",
@@ -47,6 +48,7 @@ module.exports = {
     ],
     sidebar: {
       "/work/": sidebarWork(),
+      "/think/": siderbarThink(),
     },
     editLink: {
       pattern: "https://github.com/niaogege/love/edit/main/docs/:path",

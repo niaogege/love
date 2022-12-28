@@ -6,7 +6,7 @@
 
 [niaogege 域名](http://niaogege.cn/love/)
 
-[bythewayer 域名](http://www.bythewayer.com/love/)
+[bythewayer 域名](https://bythewayer.com/love/)
 
 [vercel](https://love-niaogege.vercel.app/)
 
