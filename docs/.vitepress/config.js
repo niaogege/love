@@ -14,21 +14,22 @@ module.exports = {
       { text: "Love", link: "/love/index" },
       { text: "Work", link: "/work/index" },
       { text: "Life", link: "/life/index" },
-      { text: "Child", link: "/child/index" },
+      // { text: "Child", link: "/child/index" },
       { text: "Thinking", link: "/think/index" },
       {
-        text: "技术博客",
+        text: "blog",
         items: [
           {
             // Title for the section.
             // text: "看看",
             items: [
+              { text: "个人博客", link: "https://bythewayer.com" },
               { text: "个人学习", link: "https://bythewayer.com/learn" },
               { text: "个人所爱", link: "https://bythewayer.com/love" },
-              {
-                text: "维护的项目",
-                link: "http://niaogege.cn/nest-test/#question",
-              },
+              // {
+              //   text: "维护的项目",
+              //   link: "http://niaogege.cn/nest-test/#question",
+              // },
             ],
           },
         ],
