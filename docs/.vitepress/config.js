@@ -72,6 +72,7 @@ function sidebarWork() {
     {
       text: "Work",
       items: [
+        { text: "综述", link: "/work/index" },
         { text: "202211", link: "/work/202211" },
         { text: "202212", link: "/work/202212" },
         { text: "202301", link: "/work/202301" },
