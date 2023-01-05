@@ -52,12 +52,15 @@ jobs:
     "build-vercel": "vitepress build docs vercel && rm -rf public && mkdir -p public && mv ./docs/.vitepress/dist/* ./public"
 ```
 
+> 这里是通过在打包的时候根据 build docs vercel 这个参数来区分是 vercel 环境，vercel 环境不需要打出这种/love 路径
+
 ## 本博客网站依次部署在
 
-[vercel](https://love-niaogege.vercel.app/)
-[github](https://github.com/niaogege/love)
+- [vercel](https://love-niaogege.vercel.app/)
+- [github](https://github.com/niaogege/love)
 
-你阔以通过
-[love-niaogege.vercel](https://love-niaogege.vercel.app/)
-[niaogege](http://niaogege.cn/love/)
-[bythewayer](http://www.bythewayer.com/love)
+你阔以通过以下域名访问本网站
+
+- [love-niaogege.vercel](https://love-niaogege.vercel.app/)
+- [niaogege](http://niaogege.cn/love/)
+- [bythewayer](https://www.bythewayer.com/love)
