@@ -19,6 +19,7 @@
 - base64,类似这种 https://base64.supfree.net/
 - 税收计算
 - 图床
+- JSONView 工具集合
 
 ### 五年之约
 
