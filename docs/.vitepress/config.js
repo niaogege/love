@@ -64,6 +64,12 @@ module.exports = {
       copyright:
         'Copyright © 2022-present <a href="https://github.com/niaogege/love">WMH</a>',
     },
+
+    // algolia: {
+    //   appId: '...',
+    //   apiKey: '...',
+    //   indexName: '...'
+    // }
   },
 };
 
@@ -77,6 +83,9 @@ function sidebarWork() {
         { text: "202212", link: "/work/202212" },
         { text: "202301", link: "/work/202301" },
         { text: "202302", link: "/work/202302" },
+        { text: "202303", link: "/work/202303" },
+        { text: "202304", link: "/work/202304" },
+        { text: "202305", link: "/work/202305" },
       ],
     },
   ];
