@@ -1,10 +1,10 @@
 const argv = process.argv;
 
 const lastParam = argv.pop();
-console.log(argv, "ARGV", lastParam);
 module.exports = {
   title: "My Love",
   description: "爱你所爱",
+  favicon: "https://www.bythewayer.com/img/logo1.webp",
   lang: "en-US",
   base: lastParam === "vercel" ? "/" : "/love/",
   themeConfig: {
