@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /life/index
+      link: /work/index
     - theme: alt
       text: View on GitHub
       link: https://github.com/niaogege/love
