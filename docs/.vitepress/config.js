@@ -65,11 +65,11 @@ module.exports = {
         'Copyright © 2022-present <a href="https://github.com/niaogege/love">WMH</a>',
     },
 
-    // algolia: {
-    //   appId: '...',
-    //   apiKey: '...',
-    //   indexName: '...'
-    // }
+    algolia: {
+      appId: "UTFWSZD8OF",
+      apiKey: "2c5c49f778c42feb4c597213bacf4dc9",
+      indexName: "bythewayer",
+    },
   },
 };
 
