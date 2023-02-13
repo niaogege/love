@@ -34,7 +34,7 @@ jobs:
       - name: Deploy Server
         uses: cross-the-world/ssh-scp-ssh-pipelines@latest
         env:
-          WELCOME: "ssh scp ssh pipelines CPP server"
+          WELCOME: "ssh scp ssh pipelines CPP Love server"
           LASTSSH: "after copying"
         with:
           host: "111.230.199.157"
