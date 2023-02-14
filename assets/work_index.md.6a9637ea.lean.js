@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as t,d as i}from"./app.b2c5ce1a.js";const m=JSON.parse('{"title":"来源于工作，拓展所见所闻","description":"","frontmatter":{},"headers":[],"relativePath":"work/index.md"}'),l={name:"work/index.md"},r=i("",2),p=[r];function _(h,o,n,s,c,d){return t(),a("div",null,p)}const u=e(l,[["render",_]]);export{m as __pageData,u as default};
