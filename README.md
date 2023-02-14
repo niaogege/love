@@ -64,3 +64,13 @@ jobs:
 - [love-niaogege.vercel](https://love-niaogege.vercel.app/)
 - [niaogege](http://niaogege.cn/love/)
 - [bythewayer](https://www.bythewayer.com/love)
+
+## 全文搜索 doSearch
+
+> [申请链接](https://docsearch.algolia.com/apply/)
+
+申请的时候域名写的是 bythewayer.com 所以只能在该域名下进行全搜搜索
+
+## vitepress 里的 markdown 语法很不错，推荐
+
+[vitePress markdown](https://vitepress.vuejs.org/guide/markdown#emoji)

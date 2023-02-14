@@ -1,0 +1,39 @@
+<!--
+ * @Author: Chendapeng
+ * @Date: 2022-02-16 21:47:45
+ * @LastEditors: Chendapeng
+ * @LastEditTime: 2023-02-12 12:50:51
+ * @Description: 
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+
+  <body>
+    <table id="outside">
+      <tr>
+        <td id="t1">one</td>
+      </tr>
+      <tr>
+        <td id="t2">two</td>
+      </tr>
+    </table>
+    <script>
+      const controller = new AbortController();
+      function modoify() {
+        const t2 = document.getElementById("t2");
+        const isT2 = t2.firstChild.nodeValue === "Three";
+        t2.firstChild.nodeValue = isT2 ? "Two" : "Three";
+        if (t2.firstChild.nodeValue === "Three") {
+          controller.abort();
+        }
+      }
+      const el = document.getElementById("outside");
+      el.addEventListener("click", modoify, {
+        signal: controller.signal,
+      });
+    </script>
+  </body>
+</html>

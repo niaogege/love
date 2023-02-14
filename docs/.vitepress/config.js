@@ -2,7 +2,7 @@ const argv = process.argv;
 
 const lastParam = argv.pop();
 module.exports = {
-  title: "My Love",
+  title: "My Love ",
   description: "爱你所爱",
   favicon: "https://www.bythewayer.com/img/logo1.webp",
   lang: "en-US",

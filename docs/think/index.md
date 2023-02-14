@@ -1,6 +1,8 @@
-## This is My Thiking
+# This is My Thiking :thinking:
 
 本技术博客基于 [Vitepress](https://vitepress.vuejs.org/guide/deploying) 搭建，域名访问和 IP 访问
+
+::: details 以下域名也能访问
 
 [IP 地址访问](http://111.230.199.157/love/)
 
@@ -9,6 +11,8 @@
 [bythewayer 域名](https://bythewayer.com/love/)
 
 [vercel](https://love-niaogege.vercel.app/)
+
+:::
 
 > vercel.app 域名已被污染，需要开启 vpn 才能从外网进行访问
 
