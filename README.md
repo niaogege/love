@@ -1,4 +1,4 @@
-# 根据 vitePress 构建而来
+## 基于 vitePress 构建而来
 
 [![wakatime](https://wakatime.com/badge/github/niaogege/love.svg)](https://wakatime.com/badge/github/niaogege/love)
 
