@@ -9,5 +9,7 @@
 - [abcdocker](https://i4t.com/)
 - [jeff-tian](https://jeff-tian.jiwai.win/)
 - [appleBoy](https://blog.wu-boy.com/)
+- [开发者客栈](https://www.developers.pub/article?category=%E5%89%8D%E7%AB%AF)
+- [粥里有勺糖](https://sugarat.top/) 后生可畏！！
 
 ## 优秀技术分类

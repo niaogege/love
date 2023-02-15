@@ -16,9 +16,3 @@
 ::: tip
 终极目标：web 全栈开发，35 岁 左右可能会面临失业，所以要学会 web 开发整套流程
 :::
-
-<span v-for="i in 3">{{ i }}</span>
-
-::: v-pre
-`{{ This will be displayed as-is }}`
-:::

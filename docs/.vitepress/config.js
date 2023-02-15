@@ -4,8 +4,7 @@ const lastParam = argv.pop();
 module.exports = {
   title: "My Love ",
   description: "爱你所爱",
-  favicon: "https://www.bythewayer.com/img/logo1.webp",
-  lang: "en-US",
+  logo: "https://www.bythewayer.com/img/logo1.webp",
   base: lastParam === "vercel" ? "/" : "/love/",
   themeConfig: {
     siteTitle: "My Love",
@@ -16,6 +15,7 @@ module.exports = {
       { text: "Life", link: "/life/index" },
       // { text: "Child", link: "/child/index" },
       { text: "Thinking", link: "/think/index" },
+      { text: "Theme", link: "/theme/index" },
       {
         text: "blog",
         items: [
@@ -64,11 +64,16 @@ module.exports = {
       copyright:
         'Copyright © 2022-present <a href="https://github.com/niaogege/love">WMH</a>',
     },
-
+    // dosearch
     algolia: {
       appId: "UTFWSZD8OF",
       apiKey: "2c5c49f778c42feb4c597213bacf4dc9",
       indexName: "bythewayer",
+    },
+    lastUpdatedText: "cpp 上次更新",
+    docFooter: {
+      prev: "上一篇",
+      next: "下一篇",
     },
   },
 };
