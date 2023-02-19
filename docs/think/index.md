@@ -24,7 +24,7 @@
 - 税收计算
 - 图床
 - JSONView 工具集合
-- 基于 vitePress 涉及自己的主题包
+- 基于 vitePress 开发自己的主题包
 
 ### 五年之约
 
