@@ -3,6 +3,10 @@ layout: doc
 title: 定制私人主题包
 ---
 
+借鉴：
+[vuejs/theme](https://github.com/vuejs/theme)
+[vitest](https://github.com/vitest-dev/vitest)
+
 # 目标
 
 定制一款私人主题，基于 vitePress，主题包名称*vitepress-theme-wmh*
