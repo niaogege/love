@@ -7,6 +7,6 @@ const { Layout } = DefaultTheme;
 
 <template>
   <Layout>
-    <template #aside-outline-before> On This Page </template>
+    <template #aside-outline-before> 文章重点 </template>
   </Layout>
 </template>

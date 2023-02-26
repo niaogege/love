@@ -14,7 +14,7 @@
     "build-vercel": "vitepress build docs vercel && rm -rf public && mkdir -p public && mv ./docs/.vitepress/dist/* ./public"
   },
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.29",
+    "vitepress": "^1.0.0-alpha.40",
     "vue": "^3.2.45"
   },
   "pnpm": {

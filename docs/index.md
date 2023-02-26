@@ -1,7 +1,7 @@
 ---
 layout: home
 title: CPP & WMH 记录美好生活
-titleTemplate: Vite & Vue Powered Static Site Generator
+# titleTemplate: Vite & Vue Powered Static Site Generator
 
 hero:
   name: CPP & WMH

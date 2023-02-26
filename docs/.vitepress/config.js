@@ -1,15 +1,20 @@
+import packageJSON from "../../package.json";
 const argv = process.argv;
-
+const vitepressVersion = `v${packageJSON.devDependencies.vitepress}`;
 const lastParam = argv.pop();
 module.exports = {
   title: "My Love ",
   description: "爱你所爱",
-  logo: "https://www.bythewayer.com/img/logo1.webp",
   base: lastParam === "vercel" ? "/" : "/love/",
   themeConfig: {
-    siteTitle: "My Love",
+    // logo: "https://www.bythewayer.com/img/logo1.webp",
+    logo: "/logo.svg",
     head: [["meta", { name: "theme-color", content: "#3c8772" }]],
     nav: [
+      {
+        text: vitepressVersion,
+        link: "https://github.com/vuejs/vitepress",
+      },
       { text: "Love", link: "/love/index" },
       { text: "Work", link: "/work/index" },
       { text: "Life", link: "/life/index" },
@@ -26,6 +31,7 @@ module.exports = {
               { text: "个人博客", link: "https://bythewayer.com" },
               { text: "个人学习", link: "https://bythewayer.com/learn" },
               { text: "个人所爱", link: "https://bythewayer.com/love" },
+              { text: "VitePress", link: "https://vitepress.vuejs.org/" },
               // {
               //   text: "维护的项目",
               //   link: "http://niaogege.cn/nest-test/#question",
