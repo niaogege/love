@@ -69,6 +69,7 @@ module.exports = {
     sidebar: {
       "/work/": sidebarWork(),
       "/think/": siderbarThink(),
+      "/theme/": siderbarTheme(),
     },
     editLink: {
       pattern: "https://github.com/niaogege/love/edit/main/docs/:path",
@@ -123,6 +124,19 @@ function siderbarThink() {
         { text: "目前处境", link: "/think/cur" },
         { text: "想拥有的", link: "/think/goal" },
         { text: "羡慕大佬", link: "/think/exe" },
+      ],
+    },
+  ];
+}
+
+function siderbarTheme() {
+  return [
+    {
+      text: "Theme",
+      items: [
+        { text: "初衷", link: "/theme/index" },
+        { text: "规划", link: "/theme/plan" },
+        { text: "api", link: "/theme/api" },
       ],
     },
   ];
