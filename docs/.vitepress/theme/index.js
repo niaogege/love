@@ -4,7 +4,7 @@ import MyLayout from "./Layout.vue";
 import "./custom.css";
 export default {
   ...DefaultTheme,
-  Layout: MyLayout,
+  // Layout: MyLayout,
   enhanceApp(ctx) {
     // extend default theme custom behaviour.
     DefaultTheme.enhanceApp(ctx);

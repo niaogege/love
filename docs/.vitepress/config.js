@@ -6,8 +6,17 @@ module.exports = {
   title: "My Love ",
   description: "爱你所爱",
   base: lastParam === "vercel" ? "/" : "/love/",
+  head: [
+    [
+      "link",
+      {
+        rel: "icon",
+        type: "image/svg+xml",
+        href: "https://www.bythewayer.com/img/logo1.webp",
+      },
+    ],
+  ],
   themeConfig: {
-    // logo: "https://www.bythewayer.com/img/logo1.webp",
     logo: "https://www.bythewayer.com/img/logo1.webp",
     head: [["meta", { name: "theme-color", content: "#3c8772" }]],
     nav: [
@@ -15,8 +24,8 @@ module.exports = {
         text: vitepressVersion,
         link: "https://github.com/vuejs/vitepress",
       },
-      { text: "Love", link: "/love/index" },
       { text: "Work", link: "/work/index" },
+      { text: "Love", link: "/love/index" },
       { text: "Life", link: "/life/index" },
       // { text: "Child", link: "/child/index" },
       { text: "Thinking", link: "/think/index" },
@@ -32,6 +41,10 @@ module.exports = {
               { text: "个人学习", link: "https://bythewayer.com/learn" },
               { text: "个人所爱", link: "https://bythewayer.com/love" },
               { text: "VitePress", link: "https://vitepress.vuejs.org/" },
+              {
+                text: "tailwindcss",
+                link: "https://www.tailwindcss.cn/docs/guides/vue-3-vite",
+              },
               // {
               //   text: "维护的项目",
               //   link: "http://niaogege.cn/nest-test/#question",
