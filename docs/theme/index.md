@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: 定制私人主题包
+title: 定制私人主题包@chendap/vitepress-theme-wmh
 ---
 
 借鉴：
@@ -11,8 +11,29 @@ title: 定制私人主题包
 - [sugarat](https://theme.sugarat.top/)
 - [vitepress 中文文档](https://deploy-preview-1593--vitepress-docs.netlify.app/zh/guide/using-vue)
 - [vitepress-theme-vuetom](https://toscode.gitee.com/niaogege/vitepress-theme-vuetom)
+- 博客主题借鉴[medium](https://medium.com/)
 
-# 目标
+## 初衷
+
+没找到合适的主题博客模板，那就自己做一个喜欢的主题模板。包名 **@chendap/vitepress-theme-wmh**
+
+## 技术栈
+
+server: nodejs
+client: tailwindcss + vue3 + ts + vitepress
+npm: changeset
+
+难度还不小，
+
+- vue3/tailwindcss 不怎么熟悉，需要短时间掌握，蛮具有挑战性的
+- ssr 如何做到无限滚动加载？
+
+感谢[vitepress](https://vitepress.vuejs.org/)/[vue3](https://cn.vuejs.org/api/reactivity-core.html#watch)/[tailwindcss](https://www.tailwindcss.cn/)/[sugar-blog](https://github.com/ATQQ/sugar-blog)/[medium](https://medium.com/)
+
+## 目标
+
+![博客主题1](https://www.bythewayer.com/img/theme1.webp)
+![博客主题1](https://www.bythewayer.com/img/theme2.webp)
 
 定制一款私人主题，基于 vitePress，主题包名称*vitepress-theme-wmh*
 
@@ -23,9 +44,8 @@ title: 定制私人主题包
 - [x] 文章列表
 - [x] 评论
 - [x] 布局
-- [] 友联
 - 图片预览
-- 阅读文字和时间计算
+- 文字总数和阅读时间以及发布时间
 - Rss 更好的 seo
 
 ## 搭建基本模板
@@ -58,3 +78,13 @@ title: 定制私人主题包
 ## 充实 theme 主题包，主要工作量
 
 ## 稍微填充下 template 模板
+
+### 针对 layout:doc 的文章设置
+
+- 主要是数字，阅读时长以及发布时间，还有评论
+
+### 针对 layout:home 级别的设置
+
+- 首页文章瀑布流展示
+
+### 新增归档和订阅界面

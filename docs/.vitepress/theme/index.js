@@ -12,7 +12,4 @@ export default {
     // register your custom global components
     ctx.app.component("MyGlobalComponent" /* ... */);
   },
-  themeConfig: {
-    siteTitle: "My Custom Title",
-  },
 };

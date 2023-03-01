@@ -8,7 +8,7 @@ module.exports = {
   base: lastParam === "vercel" ? "/" : "/love/",
   themeConfig: {
     // logo: "https://www.bythewayer.com/img/logo1.webp",
-    logo: "/logo.svg",
+    logo: "https://www.bythewayer.com/img/logo1.webp",
     head: [["meta", { name: "theme-color", content: "#3c8772" }]],
     nav: [
       {
