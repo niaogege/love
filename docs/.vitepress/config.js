@@ -72,10 +72,9 @@ module.exports = {
       "/theme/": siderbarTheme(),
     },
     editLink: {
-      pattern: "https://github.com/niaogege/love/edit/main/docs/:path",
-      text: "Edit this page on GitHub",
+      pattern: "https://github.com/niaogege/love/tree/main/docs/:path",
+      text: "去 GitHub 上编辑内容",
     },
-
     socialLinks: [{ icon: "github", link: "https://github.com/niaogege/love" }],
 
     footer: {
