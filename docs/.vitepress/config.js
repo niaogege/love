@@ -17,6 +17,8 @@ module.exports = {
     ],
   ],
   themeConfig: {
+    outline: [2, 4],
+    outlineTitle: "On This Page",
     logo: "https://www.bythewayer.com/img/logo1.webp",
     head: [["meta", { name: "theme-color", content: "#3c8772" }]],
     nav: [
@@ -27,7 +29,6 @@ module.exports = {
       { text: "Work", link: "/work/index" },
       { text: "Love", link: "/love/index" },
       { text: "Life", link: "/life/index" },
-      // { text: "Child", link: "/child/index" },
       { text: "Thinking", link: "/think/index" },
       { text: "Theme", link: "/theme/index" },
       {

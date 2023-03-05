@@ -95,10 +95,37 @@ A list of all [emojis](https://github.com/markdown-it/markdown-it-emoji/blob/mas
 [[toc]]
 ```
 
-### Markdown File Inclusion
+### Code groups
+
+::: code-group
+
+```js [config.js]
+/**
+ * @type {import('vitepress').UserConfig}
+ */
+const config = {
+  // ...
+};
+
+export default config;
+```
+
+```ts [config.ts]
+import type { UserConfig } from "vitepress";
+
+const config: UserConfig = {
+  // ...
+};
+
+export default config;
+```
+
+:::
+
+### [Markdown File Inclusion](https://vitepress.vuejs.org/guide/markdown#markdown-file-inclusion)
 
 You can include a markdown file in another markdown file like this:
 
-```md
-<!--@include: ./202303.md-->
-```
+一个 md 文档中包含另一个 md 文档
+
+`!-- @include: ./202303.md --`
