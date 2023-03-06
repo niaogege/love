@@ -23,8 +23,12 @@
 - 简单算法相关，尚未完成
 - react 源码相关，尚未完成
 
-### 0214-0220
+### 0214-0320
 
 - vitePress 源码要开始阅读，即使不阅读起码里面的高级用法得用起来
 - 基于 vitePress 开发属于自己的主题包，学习学习人家[小兄弟的主题包](https://github.com/ATQQ/sugar-blog)，设计一款自己的主题包[config](https://theme.sugarat.top/config/global.html)
 - [搭建 vitePress 主题包，怎么搭法](https://lauset.github.io/vitepress-theme-vuetom/guide/info.html)
+
+### 如何发挥自己的亮点
+
+- 源码贡献
