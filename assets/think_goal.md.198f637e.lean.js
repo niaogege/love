@@ -1,0 +1,1 @@
+import{_ as l,o as i,c as e,d as t}from"./app.54f6a2e8.js";const b=JSON.parse('{"title":"目标","description":"","frontmatter":{},"headers":[],"relativePath":"think/goal.md"}'),o={name:"think/goal.md"},s=t("",9),c=[s];function a(p,r,_,n,d,u){return i(),e("div",null,c)}const h=l(o,[["render",a]]);export{b as __pageData,h as default};
