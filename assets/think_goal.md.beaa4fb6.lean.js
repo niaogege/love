@@ -1,0 +1,1 @@
+import{_ as l,o as i,c as e,Q as t}from"./chunks/framework.34f4fb7d.js";const b=JSON.parse('{"title":"目标","description":"","frontmatter":{},"headers":[],"relativePath":"think/goal.md"}'),o={name:"think/goal.md"},s=t("",9),c=[s];function a(p,r,_,n,d,u){return i(),e("div",null,c)}const h=l(o,[["render",a]]);export{b as __pageData,h as default};
