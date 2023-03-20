@@ -17,6 +17,8 @@ title: 定制私人主题包@chendap/vitepress-theme-wmh
 
 没找到合适的主题博客模板，那就自己做一个喜欢的主题模板。包名 **@chendap/vitepress-theme-wmh**
 
+看到一个静态网站博客生成器[Nextra 2 – Next.js Static Site Generator](https://the-guild.dev/blog/nextra-2).[官网](https://nextra.site/)
+
 ## 技术栈
 
 server: nodejs
