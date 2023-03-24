@@ -11,7 +11,7 @@ title: 定制私人主题包@chendap/vitepress-theme-wmh
 - [sugarat](https://theme.sugarat.top/)
 - [vitepress 中文文档](https://deploy-preview-1593--vitepress-docs.netlify.app/zh/guide/using-vue)
 - [vitepress-theme-vuetom](https://toscode.gitee.com/niaogege/vitepress-theme-vuetom)
-- 博客主题借鉴[medium](https://medium.com/)
+- 博客主题借鉴[medium](https://medium.com/)- [Lil’Log](https://lilianweng.github.io/)
 
 ## 初衷
 
@@ -41,11 +41,12 @@ npm: changeset
 
 需要满足的功能 todoList::
 
-- [] 搭建模板，并生成语义化版本，自动发布到 npm，整个流程要规范一点
-- 首页改造
+- [x] 搭建模板，并生成语义化版本，自动发布到 npm，整个流程要规范一点
+- []首页改造
 - [x] 文章列表
 - [x] 评论
 - [x] 布局
+- 主题模式切换，白天和夜晚模式
 - 图片预览
 - 文字总数和阅读时间以及发布时间
 - Rss 更好的 seo
