@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./chunks/framework.7833fcfd.js";const d=JSON.parse('{"title":"theme主题API文档","description":"","frontmatter":{"layout":"doc","title":"theme主题API文档"},"headers":[],"relativePath":"theme/api.md"}'),o={name:"theme/api.md"};function r(c,s,n,p,i,m){return t(),a("div")}const l=e(o,[["render",r]]);export{d as __pageData,l as default};
