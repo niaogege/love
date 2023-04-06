@@ -12,6 +12,7 @@ title: 定制私人主题包@chendap/vitepress-theme-wmh
 - [vitepress 中文文档](https://deploy-preview-1593--vitepress-docs.netlify.app/zh/guide/using-vue)
 - [vitepress-theme-vuetom](https://toscode.gitee.com/niaogege/vitepress-theme-vuetom)
 - 博客主题借鉴[medium](https://medium.com/)- [Lil’Log](https://lilianweng.github.io/)
+- [借鉴 tailwindcss 快速开发](https://tailblocks.cc/)
 
 ## 初衷
 
