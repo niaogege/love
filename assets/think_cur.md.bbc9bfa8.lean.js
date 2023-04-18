@@ -1,1 +1,0 @@
-import{_ as e,o as a,c as l,Q as t}from"./chunks/framework.7833fcfd.js";const b=JSON.parse('{"title":"Work","description":"","frontmatter":{},"headers":[],"relativePath":"think/cur.md"}'),r={name:"think/cur.md"},i=t("",10),o=[i];function s(n,h,c,u,d,_){return a(),l("div",null,o)}const f=e(r,[["render",s]]);export{b as __pageData,f as default};
