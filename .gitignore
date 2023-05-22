@@ -2,7 +2,7 @@
 /dist
 /public
 /node_modules
-/docs/hidden
+/docs/hidden/*
 
 # Logs
 logs
