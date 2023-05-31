@@ -39,8 +39,8 @@ module.exports = {
             // text: "看看",
             items: [
               { text: "个人博客", link: "https://bythewayer.com" },
-              { text: "个人学习", link: "https://bythewayer.com/learn" },
-              { text: "个人所爱", link: "https://bythewayer.com/love" },
+              { text: "个人学习", link: "http://learn.bythewayer.com" },
+              { text: "个人所爱", link: "http://love.bythewayer.com" },
               { text: "VitePress", link: "https://vitepress.vuejs.org/" },
               {
                 text: "tailwindcss",
