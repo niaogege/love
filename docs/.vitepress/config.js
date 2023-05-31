@@ -5,7 +5,7 @@ const lastParam = argv.pop();
 module.exports = {
   title: "My Love ",
   description: "爱你所爱",
-  base: lastParam === "vercel" ? "/" : "/love/",
+  base: lastParam === "vercel" ? "/" : "/",
   head: [
     [
       "link",
