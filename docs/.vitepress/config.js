@@ -68,6 +68,7 @@ module.exports = {
       // },
     ],
     sidebar: {
+      "/life": sidebarLife(),
       "/work/": sidebarWork(),
       "/think/": siderbarThink(),
       "/theme/": siderbarTheme(),
@@ -77,7 +78,6 @@ module.exports = {
       text: "去 GitHub 上编辑内容",
     },
     socialLinks: [{ icon: "github", link: "https://github.com/niaogege/love" }],
-
     footer: {
       message:
         'Released under the <a href="https://github.com/niaogege/love">MIT License</a>.',
@@ -144,6 +144,18 @@ function siderbarTheme() {
         { text: "初衷", link: "/theme/index" },
         { text: "规划", link: "/theme/plan" },
         { text: "api", link: "/theme/api" },
+      ],
+    },
+  ];
+}
+
+function sidebarLife() {
+  return [
+    {
+      text: "Life",
+      items: [
+        { text: "综述", link: "/life/index" },
+        { text: "food", link: "/life/food" },
       ],
     },
   ];
