@@ -1,1 +1,0 @@
-import{_ as s,o as n,c as a,Q as l}from"./chunks/framework.87481dfd.js";const A=JSON.parse('{"title":"202306","description":"","frontmatter":{},"headers":[],"relativePath":"work/202306.md","filePath":"work/202306.md"}'),p={name:"work/202306.md"},o=l("",118),e=[o];function t(c,r,E,y,F,i){return n(),a("div",null,e)}const u=s(p,[["render",t]]);export{A as __pageData,u as default};
