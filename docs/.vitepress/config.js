@@ -156,6 +156,7 @@ function sidebarLife() {
       items: [
         { text: "综述", link: "/life/index" },
         { text: "food", link: "/life/food" },
+        { text: "health", link: "/life/health" },
       ],
     },
   ];
