@@ -1,10 +1,10 @@
 ---
 layout: home
-title: CPP & WMH 记录美好生活
+title: CDP & MH 记录美好生活
 # titleTemplate: Vite & Vue Powered Static Site Generator
 
 hero:
-  name: CPP & WMH
+  name: CDP & MH
   text: 记录美好生活
   tagline: 一壶浊酒尽余欢，今宵别梦寒
   actions:
@@ -21,7 +21,7 @@ features:
   - title: 相爱
     details: 恋爱
   - title: 组建
-    details: 人生还未圆满
+    details: 2023/10/02·人生还未圆满
   - title: 养老
     details: 赚够100w养老
 ---
