@@ -84,4 +84,24 @@
       }, 400);
     });
   </script>
+  <script>
+    const navigationStart = performance.timing.navigationStart;
+    let FCP = 0;
+    const observer = new PerformanceObserver(function (list, obj) {
+      const entries = list.getEntries();
+      entries.forEach((entry) => {
+        // if (entry.name === "first-contentful-paint") {
+        // 计算 FCP
+        FCP = Math.max(entry.startTime - navigationStart, 0);
+        console.log(FCP, "fcp");
+        // 计算完立即取消监听
+        observer.disconnect();
+        // }
+      });
+    });
+    observer.observe({
+      type: "largest-contentful-paint", // paint
+      buffered: true,
+    });
+  </script>
 </html>
