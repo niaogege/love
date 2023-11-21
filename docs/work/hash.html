@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>hash</title>
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li><a href="#/page1">page1</a></li>
+        <li><a href="#/page2">page2</a></li>
+      </ul>
+      <!--渲染对应组件的地方-->
+      <div id="route-view"></div>
+    </div>
+  </body>
+
+  <script>
+    function hashRouter() {
+      window.addEventListener("DOMContentLoaded", load);
+      window.addEventListener("hashchange", load);
+      var innerHtml = document.getElementById("route-view");
+      function load() {
+        var pathname = window.location.hash;
+        switch (pathname) {
+          case "#/page1":
+            innerHtml.innerHTML = "This is Page1";
+            break;
+
+          case "#/page2":
+            innerHtml.innerHTML = "This is Page2";
+            break;
+          default:
+            innerHtml.innerHTML = "This is default";
+            break;
+        }
+      }
+    }
+    hashRouter();
+  </script>
+</html>
