@@ -3,6 +3,7 @@
 /public
 /node_modules
 /docs/hidden/*
+/docs/**/dist
 
 # Logs
 logs
