@@ -1,0 +1,1 @@
+import{_ as s,o as i,c as a,R as n}from"./chunks/framework.d_MvF_7c.js";const F=JSON.parse('{"title":"202311","description":"","frontmatter":{},"headers":[],"relativePath":"work/202311.md","filePath":"work/202311.md"}'),h={name:"work/202311.md"},l=n("",125),k=[l];function t(p,e,E,r,d,g){return i(),a("div",null,k)}const o=s(h,[["render",t]]);export{F as __pageData,o as default};
