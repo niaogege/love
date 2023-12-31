@@ -1,1 +1,0 @@
-import{_ as l,o as i,c as e,R as a}from"./chunks/framework.d_MvF_7c.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"life/food.md","filePath":"life/food.md"}'),o={name:"life/food.md"},t=a("",6),r=[t];function c(n,s,_,d,h,f){return i(),e("div",null,r)}const m=l(o,[["render",c]]);export{p as __pageData,m as default};
