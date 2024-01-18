@@ -63,7 +63,7 @@ jobs:
 
 - [love-niaogege.vercel](https://love-niaogege.vercel.app/)
 - [niaogege](http://niaogege.cn/love/)
-- [bythewayer](https://www.bythewayer.com/love)
+- [bythewayer](http://love.bythewayer.com/)
 
 ## 全文搜索 doSearch
 
