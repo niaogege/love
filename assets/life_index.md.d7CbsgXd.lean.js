@@ -1,1 +1,0 @@
-import{_ as a,c as l,o as i,V as e}from"./chunks/framework.mLOB1Dtk.js";const p=JSON.parse('{"title":"Life","description":"","frontmatter":{},"headers":[],"relativePath":"life/index.md","filePath":"life/index.md"}'),r={name:"life/index.md"},t=e("",55),o=[t];function h(n,d,s,u,c,b){return i(),l("div",null,o)}const q=a(r,[["render",h]]);export{p as __pageData,q as default};
