@@ -1,5 +1,7 @@
 ## 前端开发助手
 
+- wx8b727ea944b22161
+
 - [上线自己的前端助手类小程序](https://gitee.com/zhu_jie/fontend-demo.git)
 
   > 涵盖 前端简历模板 年终奖/个人所得税计算
