@@ -7,6 +7,8 @@
 开发周期： 1-3 月
 上线时间： 202403
 
+[UI](https://js.design/community?category=detail&type=resource&id=649005ba380e35758feb0ea4)
+
 ## 涉及知识点
 
 - mysql
