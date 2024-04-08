@@ -39,7 +39,8 @@
 
 - 算法题 200+150 手写题，饶记于心
 - 面试内容每天记一记，框架+网络+js
-- 云原生在接近深度点？
 - go 语言学一学
-- mysql 和 mongdb 和 prisma 熟练，把记账本项目搞完
+- mysql 和 mongdb 和 prisma 熟练
 - 学会使用无头 cms strapi
+- 熟练使用 Nestjs+typeOrm，完成前端面试集微信小程序前后端
+- 熟练使用 Nestjs+prisma, 完成记账本项目

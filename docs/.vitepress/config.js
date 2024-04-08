@@ -22,10 +22,10 @@ module.exports = {
     logo: "https://www.bythewayer.com/img/logo1.webp",
     head: [["meta", { name: "theme-color", content: "#3c8772" }]],
     nav: [
-      {
-        text: vitepressVersion,
-        link: "https://github.com/vuejs/vitepress",
-      },
+      // {
+      //   text: vitepressVersion,
+      //   link: "https://github.com/vuejs/vitepress",
+      // },
       { text: "Work", link: "/work/index" },
       { text: "Love", link: "/love/index" },
       { text: "Life", link: "/life/index" },
