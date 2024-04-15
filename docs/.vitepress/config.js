@@ -1,7 +1,7 @@
-import packageJSON from "../../package.json";
-const argv = process.argv;
-const vitepressVersion = `v${packageJSON.devDependencies.vitepress}`;
-const lastParam = argv.pop();
+import packageJSON from "../../package.json"
+const argv = process.argv
+const vitepressVersion = `v${packageJSON.devDependencies.vitepress}`
+const lastParam = argv.pop()
 module.exports = {
   title: "My Love ",
   description: "爱你所爱",
@@ -86,9 +86,9 @@ module.exports = {
     },
     // dosearch
     algolia: {
-      appId: "UTFWSZD8OF",
-      apiKey: "2c5c49f778c42feb4c597213bacf4dc9",
-      indexName: "bythewayer",
+      appId: "9EWGM3IWY9",
+      apiKey: "9880721f367d0e4800fa305ae9ebe0c9",
+      indexName: "love-bythewayer",
     },
     lastUpdatedText: "cpp 上次更新",
     docFooter: {
@@ -96,7 +96,7 @@ module.exports = {
       next: "下一篇",
     },
   },
-};
+}
 
 function sidebarWork() {
   return [
@@ -124,7 +124,7 @@ function sidebarWork() {
         { text: "202404", link: "/work/2024/202404" },
       ],
     },
-  ];
+  ]
 }
 function siderbarThink() {
   return [
@@ -137,7 +137,7 @@ function siderbarThink() {
         { text: "羡慕大佬", link: "/think/exe" },
       ],
     },
-  ];
+  ]
 }
 
 function siderbarTheme() {
@@ -150,7 +150,7 @@ function siderbarTheme() {
         { text: "api", link: "/theme/api" },
       ],
     },
-  ];
+  ]
 }
 
 function sidebarLife() {
@@ -163,5 +163,5 @@ function sidebarLife() {
         { text: "health", link: "/life/health" },
       ],
     },
-  ];
+  ]
 }
