@@ -26,6 +26,7 @@ module.exports = {
       //   text: vitepressVersion,
       //   link: "https://github.com/vuejs/vitepress",
       // },
+      { text: "Child", link: "/child/index" },
       { text: "Work", link: "/work/index" },
       { text: "Love", link: "/love/index" },
       { text: "Life", link: "/life/index" },
@@ -68,6 +69,7 @@ module.exports = {
       // },
     ],
     sidebar: {
+      "/child": sidebarChild(),
       "/life": sidebarLife(),
       "/work/": sidebarWork(),
       "/think/": siderbarThink(),
@@ -122,6 +124,7 @@ function sidebarWork() {
         { text: "202402", link: "/work/2024/202402" },
         { text: "202403", link: "/work/2024/202403" },
         { text: "202404", link: "/work/2024/202404" },
+        { text: "202405", link: "/work/2024/202405" },
       ],
     },
   ]
@@ -161,6 +164,20 @@ function sidebarLife() {
         { text: "综述", link: "/life/index" },
         { text: "food", link: "/life/food" },
         { text: "health", link: "/life/health" },
+      ],
+    },
+  ]
+}
+
+function sidebarChild() {
+  return [
+    {
+      text: "Child",
+      items: [
+        { text: "综述", link: "/child/index" },
+        { text: "food", link: "/child/food" },
+        { text: "timer", link: "/child/timer" },
+        { text: "profile", link: "/child/profile" },
       ],
     },
   ]
