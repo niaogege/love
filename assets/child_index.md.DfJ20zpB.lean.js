@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t,a3 as r}from"./chunks/framework.C-LRnSyM.js";const m=JSON.parse('{"title":"开端-孕育生命","description":"","frontmatter":{},"headers":[],"relativePath":"child/index.md","filePath":"child/index.md"}'),i={name:"child/index.md"},l=r("",7),o=[l];function h(n,d,c,s,_,f){return t(),e("div",null,o)}const p=a(i,[["render",h]]);export{m as __pageData,p as default};
