@@ -1,1 +1,0 @@
-import{_ as a,c as l,o as i,a3 as e}from"./chunks/framework.C-LRnSyM.js";const _=JSON.parse('{"title":"Life","description":"","frontmatter":{},"headers":[],"relativePath":"life/index.md","filePath":"life/index.md"}'),r={name:"life/index.md"},t=e("",59),o=[t];function h(n,d,s,u,c,b){return i(),l("div",null,o)}const q=a(r,[["render",h]]);export{_ as __pageData,q as default};
