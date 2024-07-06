@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as l,a3 as i}from"./chunks/framework.B7u0EqqU.js";const m=JSON.parse('{"title":"开端-孕育生命","description":"","frontmatter":{},"headers":[],"relativePath":"child/index.md","filePath":"child/index.md"}'),t={name:"child/index.md"},r=i("",9),o=[r];function h(n,d,c,s,_,u){return l(),e("div",null,o)}const p=a(t,[["render",h]]);export{m as __pageData,p as default};
