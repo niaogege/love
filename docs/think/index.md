@@ -20,6 +20,7 @@
 
 ### 想做成的工具集合
 
+- 做工具聚合，[类似这种](https://tools.thatwind.com/)
 - base64,类似这种 https://base64.supfree.net/
 - 税收计算
 - 图床
