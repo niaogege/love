@@ -1,0 +1,1 @@
+import{_ as l,c as i,o as a,a4 as e}from"./chunks/framework.DXwk8mYv.js";const m=JSON.parse('{"title":"食物相关","description":"","frontmatter":{},"headers":[],"relativePath":"child/food.md","filePath":"child/food.md"}'),t={name:"child/food.md"},o=e("",9),r=[o];function d(h,n,c,s,_,u){return a(),i("div",null,r)}const p=l(t,[["render",d]]);export{m as __pageData,p as default};
