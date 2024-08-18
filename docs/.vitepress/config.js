@@ -107,7 +107,7 @@ function sidebarWork() {
       items: [
         { text: "综述", link: "/work/index" },
         { text: "202211", link: "/work/2022/202211" },
-        { text: "202212", link: "/work/2022.202212" },
+        { text: "202212", link: "/work/2022/202212" },
         { text: "202301", link: "/work/2023/202301" },
         { text: "202302", link: "/work/2023/202302" },
         { text: "202303", link: "/work/2023/202303" },
@@ -127,6 +127,7 @@ function sidebarWork() {
         { text: "202405", link: "/work/2024/202405" },
         { text: "202406", link: "/work/2024/202406" },
         { text: "202407", link: "/work/2024/202407" },
+        { text: "202408", link: "/work/2024/202408" },
       ],
     },
   ]
