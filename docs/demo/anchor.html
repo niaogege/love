@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>hash</title>
+    <style>
+      body {
+        overflow-y: scroll;
+      }
+      #route-view {
+        display: flex;
+        flex-flow: column nowrap;
+        height: auto;
+        width: 100%;
+      }
+      .target1 {
+        height: 800px;
+        width: 100%;
+        background-color: red;
+      }
+      .target2 {
+        height: 800px;
+        width: 100%;
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li><a href="#target1">page1</a></li>
+        <li><a href="#target2">page2</a></li>
+      </ul>
+      <!--渲染对应组件的地方-->
+      <div id="route-view">
+        <div id="target1" class="target1">这是target1盒子</div>
+
+        <div id="target2" class="target2">这是target2盒子</div>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    // function hashRouter() {
+    //   window.addEventListener("DOMContentLoaded", load);
+    //   window.addEventListener("hashchange", load);
+    //   var innerHtml = document.getElementById("route-view");
+    //   function load() {
+    //     var pathname = window.location.hash;
+    //     switch (pathname) {
+    //       case "#/page1":
+    //         innerHtml.innerHTML = "This is Page1";
+    //         break;
+
+    //       case "#/page2":
+    //         innerHtml.innerHTML = "This is Page2";
+    //         break;
+    //       default:
+    //         innerHtml.innerHTML = "This is default";
+    //         break;
+    //     }
+    //   }
+    // }
+    // hashRouter();
+  </script>
+</html>

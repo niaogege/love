@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marquee Effect with Pause/Resume</title>
+    <style>
+      .marquee-container {
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
+      }
+
+      .marquee {
+        display: inline-block;
+        padding-left: 100%; /* Start out of view */
+        animation: marquee 10s linear infinite;
+      }
+
+      @keyframes marquee {
+        from {
+          transform: translateX(0%);
+        }
+        to {
+          transform: translateX(-100%);
+        }
+      }
+
+      .paused {
+        animation-play-state: paused;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="marquee-container">
+      <div class="marquee">
+        This is a marquee text example! This is a marquee text example!
+      </div>
+    </div>
+    <button id="pauseButton">Pause</button>
+    <button id="resumeButton">Resume</button>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var marquee = document.querySelector(".marquee")
+        var pauseButton = document.getElementById("pauseButton")
+        var resumeButton = document.getElementById("resumeButton")
+
+        pauseButton.addEventListener("click", function () {
+          marquee.classList.add("paused")
+        })
+
+        resumeButton.addEventListener("click", function () {
+          marquee.classList.remove("paused")
+        })
+      })
+    </script>
+  </body>
+</html>
