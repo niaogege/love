@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>hash</title>
+    <style>
+      .cont {
+        position: relative;
+      }
+      .wrap {
+        border: 2px solid blue;
+        width: 200px;
+        height: 100px;
+      }
+      .tip {
+        height: 0;
+        width: 200px;
+        transition: all 0.5s ease;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: inherit;
+        bottom: 0;
+        background-color: yellow;
+      }
+      .wrap:hover .tip {
+        height: 100px;
+        height: calc-size(auto);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cont">
+      <div class="wrap">
+        This is Wrap
+        <div class="tip">
+          <div>THis is tip</div>
+          <div>THis is tip</div>
+          <div>THis is tip</div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script></script>
+</html>
