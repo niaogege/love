@@ -130,6 +130,8 @@ function sidebarWork() {
         { text: "202408", link: "/work/2024/202408" },
         { text: "202409", link: "/work/2024/202409" },
         { text: "202410", link: "/work/2024/202410" },
+        { text: "202411", link: "/work/2024/202411" },
+        { text: "202412", link: "/work/2024/202412" },
       ],
     },
   ]
