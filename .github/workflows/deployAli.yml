@@ -59,7 +59,7 @@ jobs:
           first_ssh: |-
             rm -rf $TARGET_DIR
             echo $WELCOME
-            mkdir $TARGET_DIR
+            mkdir -p $TARGET_DIR
           scp: |-
             './dist/*' => $TARGET_DIR/
           last_ssh: |-
