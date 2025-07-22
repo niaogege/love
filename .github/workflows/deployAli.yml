@@ -56,11 +56,10 @@ jobs:
           user: "root"
           pass: ${{ secrets.ALI_PASSWORD }}
           connect_timeout: 20s
-          first_ssh: |-
+          first_ssh: |
             rm -rf $TARGET_DIR
-            echo $WELCOME
             mkdir -p $TARGET_DIR
-          scp: |-
+          scp: |
             './dist/*' => $TARGET_DIR/
-          last_ssh: |-
+          last_ssh: |
             echo $LASTSSH
