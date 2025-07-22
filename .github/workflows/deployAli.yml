@@ -57,7 +57,8 @@ jobs:
           pass: ${{ secrets.ALI_PASSWORD }}
           connect_timeout: 20s
           first_ssh: |
-            rm -rf $TARGET_DIR
+            rm -rf $TARGET_DIR 
+            ls -la  \necho $WELCOME 
             mkdir -p $TARGET_DIR
           scp: |
             './dist/*' => $TARGET_DIR/
