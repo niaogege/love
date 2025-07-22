@@ -1,0 +1,1 @@
+import{_ as r,c as t,o,ag as n}from"./chunks/framework.ymCRTBvy.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"work/2024/te.md","filePath":"work/2024/te.md"}'),i={name:"work/2024/te.md"};function s(a,l,g,e,u,h){return o(),t("div",null,l[0]||(l[0]=[n("",17)]))}const c=r(i,[["render",s]]);export{d as __pageData,c as default};

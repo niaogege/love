@@ -1,0 +1,1 @@
+import{_ as i,c as e,o as t,ag as a}from"./chunks/framework.ymCRTBvy.js";const _=JSON.parse('{"title":"目标","description":"","frontmatter":{},"headers":[],"relativePath":"think/goal.md","filePath":"think/goal.md"}'),o={name:"think/goal.md"};function s(r,l,c,p,n,d){return t(),e("div",null,l[0]||(l[0]=[a("",12)]))}const m=i(o,[["render",s]]);export{_ as __pageData,m as default};

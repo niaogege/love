@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r,ag as o}from"./chunks/framework.CDhRSyRB.js";const c=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"love/think.md","filePath":"love/think.md"}'),n={name:"love/think.md"};function i(_,a,l,p,s,h){return r(),t("div",null,a[0]||(a[0]=[o("",9)]))}const m=e(n,[["render",i]]);export{c as __pageData,m as default};

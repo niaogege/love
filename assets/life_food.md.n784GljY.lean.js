@@ -1,1 +1,0 @@
-import{_ as i,c as a,o as e,ag as o}from"./chunks/framework.CDhRSyRB.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"life/food.md","filePath":"life/food.md"}'),t={name:"life/food.md"};function r(n,l,d,s,c,_){return e(),a("div",null,l[0]||(l[0]=[o("",6)]))}const u=i(t,[["render",r]]);export{h as __pageData,u as default};

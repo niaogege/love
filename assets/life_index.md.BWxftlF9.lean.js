@@ -1,0 +1,1 @@
+import{_ as l,c as i,o as e,ag as r}from"./chunks/framework.ymCRTBvy.js";const b=JSON.parse('{"title":"Life","description":"","frontmatter":{},"headers":[],"relativePath":"life/index.md","filePath":"life/index.md"}'),t={name:"life/index.md"};function o(h,a,n,u,d,s){return e(),i("div",null,a[0]||(a[0]=[r("",65)]))}const q=l(t,[["render",o]]);export{b as __pageData,q as default};
