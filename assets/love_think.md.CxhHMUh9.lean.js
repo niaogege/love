@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as r,ag as o}from"./chunks/framework.BT_aBzO2.js";const c=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"love/think.md","filePath":"love/think.md"}'),n={name:"love/think.md"};function i(_,a,l,p,s,h){return t(),r("div",null,[...a[0]||(a[0]=[o("",9)])])}const m=e(n,[["render",i]]);export{c as __pageData,m as default};

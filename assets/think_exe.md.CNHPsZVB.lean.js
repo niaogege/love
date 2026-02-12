@@ -1,0 +1,1 @@
+import{_ as r,o as a,c as t,ag as l}from"./chunks/framework.BT_aBzO2.js";const p=JSON.parse('{"title":"羡慕大佬","description":"","frontmatter":{},"headers":[],"relativePath":"think/exe.md","filePath":"think/exe.md"}'),i={name:"think/exe.md"};function o(n,e,h,f,s,c){return a(),t("div",null,[...e[0]||(e[0]=[l("",5)])])}const d=r(i,[["render",o]]);export{p as __pageData,d as default};

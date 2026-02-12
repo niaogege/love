@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r}from"./chunks/framework.LkKBe053.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"work/2026/202603.md","filePath":"work/2026/202603.md"}'),a={name:"work/2026/202603.md"};function o(s,c,n,_,p,d){return r(),t("div")}const f=e(a,[["render",o]]);export{m as __pageData,f as default};
