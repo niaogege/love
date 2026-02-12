@@ -139,6 +139,11 @@ function sidebarWork() {
         { text: "202505", link: "/work/2025/202505" },
         { text: "202506", link: "/work/2025/202506" },
         { text: "202507", link: "/work/2025/202507" },
+        { text: "202508", link: "/work/2025/202508" },
+        { text: "202509", link: "/work/2025/202509" },
+        { text: "202510", link: "/work/2025/2025010" },
+        { text: "202511", link: "/work/2025/2025011" },
+        { text: "202512", link: "/work/2025/2025012" },
       ],
     },
   ]

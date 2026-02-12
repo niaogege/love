@@ -23,5 +23,5 @@ features:
   - title: 组建
     details: 2023/10/02·人生还未圆满
   - title: 养老
-    details: 赚够100w养老
+    details: 赚够100w养老,啥时能实现
 ---
